@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza.order.app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <!--left-div-->
+        <div class="img-div">
+          <div class="div-price"><p class="price-text">0.0 €</p></div>
+        </div>
+         <!--right-div-->
+
+        <div class="order-div">
+          <h1>Pizza Order app</h1>
+          <div class="second-order-conatiner">
+            Welcome to our Pizza Order App! With our user-friendly interface and seamless ordering process, we aim to provide you with the ultimate pizza ordering experience. Whether you're craving a classic Margherita or feeling adventurous with a specialty pizza, our app has got you covered.
+         <!--customer details-->
+          <form>
+            <div class="CustomerDetails-container">
+            <h3>Customer details</h3>
+            <div>
+            <label for="" class="name-label">Enter your name </label><input type="text" />
+          </div>
+        </div>
+          <div class="pizzaSiza-container">
+            <h3>Pizza Size</h3>
+            <!--pizza.size-->
+            <div>
+           
+              <input
+                type="radio"
+                id="radio1"
+                name="radioo"
+                value="5"
+                class="size"
+              /><label for="#radio1">For 2</label>
+             </div>
+             <div>
+              <input
+                type="radio"
+                id="radio2"
+                name="radioo"
+                value="7"
+                class="size"
+              /><label for="#radio2">For 4</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="radio3"
+                name="radioo"
+                value="6"
+                class="size"
+              /><label for="#radio3">For 8</label>
+            </div>
+          </div>
+            <!--pizza.toppings-->
+      <div class="toppings-container">
+            <h3>Toppings</h3>
+             <p class="toppings-text"><i>The first four choices are for free</i></p>
+            <div class="one">
+              <input type="checkbox" class="item1 item" value="6,00" />
+              <label for="">Pepperoni</label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item2 item" value="3,00" />
+              <label for="">Mushrooms </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item3 item" value="5,00" />
+              <label for="">Bell peppers    </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item4 item" value="7,00" />
+              <label for="">Onions  </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item5 item" value="2,00" />
+              <label for="">Olives     </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item6 item" value="1,00" />
+              <label for="">Sausage     </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item7 item" value="2,00" />
+              <label for="">Pineapple     </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item8 item" value="2,00" />
+              <label for="">Spinach     </label>
+            </div>
+            <div class="one">
+              <input type="checkbox" class="item9 item" value="2,00" />
+              <label for="">Bacon     </label>
+            </div>
+            <div class="one">
+              <input
+                name="item10"
+                type="checkbox"
+                class="item10 item"
+                value="2,00"
+              />
+              <label for="item10"> Jalapenos</label>
+            </div>
+           
+          </div>
+            <!-- delivery-->
+           <div class="delivery-container">
+             
+            <h3>Delivery</h3>
+            <select name="" id="delivery">
+              <option value="0.0">Eat in</option>
+              <option value="5.0">Home Delivery 5€</option>
+              <option value="0.0">Pick up food</option>
+            </select>
+          
+          </form>
+        </div>
+      </div>
+        </div>
+      </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
